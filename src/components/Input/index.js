@@ -1,7 +1,10 @@
-const Input = ({placeholder}) => {
-    return (
-        <input type='text' placeholder={placeholder}/>
-    )
-}
+import styled from 'styled-components';
 
-export default Input;
+const NewsletterInput = styled.input`
+    height: 65px;
+    width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+
+`
+export default NewsletterInput;

@@ -1,12 +1,18 @@
-import MenuItem from "../MenuItem"
+import styled from 'styled-components';
+import MenuElement from "../MenuItem";
+
+const MenuElements = styled.ul`
+    display: flex;
+    padding: 0;
+`
 
 export const Menu = () => {
-    const menuItens = ['Como fazer', 'Ofertas', 'Depoimentos', 'Videos', 'Meu Carrinho']
+    const menuItens = ['Como fazer /', 'Ofertas /', 'Depoimentos /', 'Videos /', 'Meu Carrinho']
     return (
-        <ul>
+        <MenuElements>
             {
-                menuItens.map(item => <MenuItem key={item} itemName={item} />)
+                menuItens.map(item => <MenuElement key={item} itemName={item} />)
             }
-        </ul>
+        </MenuElements>
     )
 }

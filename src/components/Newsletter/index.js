@@ -1,11 +1,11 @@
-import Input from "../Input"
+import NewsletterInput from "../Input";
 import SubscribeButton from "../SubscribeButton"
 
 const Newsletter = () => {
     return (
         <form>
-            <Input placeholder={'Insira seu e-mail'} />
-            <SubscribeButton text={'Assinar newsletter'} />
+            <NewsletterInput placeholder="Insira seu e-mail" />
+            <SubscribeButton>Assinar newsletter</SubscribeButton>
         </form>
     )
 }
