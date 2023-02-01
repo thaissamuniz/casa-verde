@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SubscribeButton = styled.button`
    padding: 21px;
-   background-color: #dd9d0e;
+   background-color: #FFCB47;
    border: none;
    height: 65px;
    color: white;
