@@ -7,6 +7,7 @@ import styled from "styled-components";
 
 const DivOffers = styled.div`
     display: flex;
+    justify-content: center;
 `
 
 const Offers = () => {

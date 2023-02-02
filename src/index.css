@@ -5,7 +5,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../src/img/image 1.png');
+  background-image: url('../src/img/Vector\ \(1\).svg');
+  background-repeat: no-repeat;
+  /* background-position-x: 980px; */
+  background-position: right;
+background-position-y: top;
+  background-color: #E5E5E5;
 }
 
 main {

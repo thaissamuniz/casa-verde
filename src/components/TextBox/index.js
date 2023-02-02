@@ -11,7 +11,7 @@ const SectionTextBox = styled.section`
 `
 
 const DivTextBox = styled.div`
-    padding: 114px 56px;
+    padding: 114px 0 0 20px;
     max-width: 585px;
     box-sizing: border-box;
 `

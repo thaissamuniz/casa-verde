@@ -2,6 +2,7 @@ import styled from "styled-components";
 export const HeroImage = styled.img`
     position: relative;
     top: -77px;
+    right: 140px;
 `
 const Image = ({ src, alt, width, height }) => {
     return (

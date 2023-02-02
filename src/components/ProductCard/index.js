@@ -11,6 +11,7 @@ const Div = styled.div`
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: white;
     margin-right: 31px;
+    margin-bottom: 30px;
 `
 
 const DivContent = styled.div`
