@@ -1,7 +1,7 @@
 import ImageComp from "../ImageComp"
-import TextTwoElement, { TextTwoCard } from "../TextTwo"
+import { TextTwoCard } from "../TextTwo"
 import styled from 'styled-components'
-import TextElement, { TextOneSmall } from "../TextOne";
+import { TextOneSmall } from "../TextOne";
 import BuyButton from "../BuyButton";
 
 const Div = styled.div`

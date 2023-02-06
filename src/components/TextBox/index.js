@@ -1,7 +1,7 @@
 import Newsletter from '../Newsletter';
 import TextTwoElement from '../TextTwo'
-import Image, { HeroImage } from '../ImageComp';
-import PlantaBanner from '../../img/imagem-hero 1.svg'
+import { HeroImage } from '../ImageComp';
+import PlantaBanner from '../../img/imagem-hero 1.svg';
 import TextElement, { TextOneSmall } from '../TextOne';
 import styled from 'styled-components';
 

@@ -7,6 +7,10 @@ const SubscribeButton = styled.button`
    height: 65px;
    color: white;
    box-sizing: border-box;
+
+   :hover {
+      cursor: pointer;
+   }
 `
 
 
